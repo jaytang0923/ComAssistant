@@ -1,10 +1,8 @@
-import org.apache.tools.ant.taskdefs.condition.Os
-
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 19
-    buildToolsVersion "19.1.0"
+    compileSdkVersion 23
+    buildToolsVersion "25.0.1"
 
     dexOptions {
         javaMaxHeapSize "4g"
@@ -40,6 +38,7 @@ android {
 
 }
 // call regular ndk-build(.cmd) script from app directory
+/*
 task ndkBuild(type: Exec) {
     if (Os.isFamily(Os.FAMILY_WINDOWS)) {
         commandLine 'C:\\Users\\Administrator\\AppData\\Local\\Android\\sdk\\ndk-bundle\\ndk-build.cmd', '-C', file('src/main').absolutePath
@@ -51,3 +50,4 @@ task ndkBuild(type: Exec) {
 tasks.withType(JavaCompile) {
     compileTask -> compileTask.dependsOn ndkBuild
 }
+*/

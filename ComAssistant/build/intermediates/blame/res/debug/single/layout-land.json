@@ -2,5 +2,9 @@
     {
         "merged": "E:\\kaifaworkspace\\ComAssistant\\ComAssistant\\build\\intermediates\\res\\merged\\debug\\layout-land\\main.xml",
         "source": "E:\\kaifaworkspace\\ComAssistant\\ComAssistant\\src\\main\\res\\layout-land\\main.xml"
+    },
+    {
+        "merged": "E:\\Android_WorkStation\\ComAssistant\\ComAssistant\\build\\intermediates\\res\\merged\\debug\\layout-land\\main.xml",
+        "source": "E:\\Android_WorkStation\\ComAssistant\\ComAssistant\\src\\main\\res\\layout-land\\main.xml"
     }
 ]

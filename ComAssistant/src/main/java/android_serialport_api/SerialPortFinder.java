@@ -16,14 +16,14 @@
 
 package android_serialport_api;
 
+import android.util.Log;
+
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.LineNumberReader;
 import java.util.Iterator;
 import java.util.Vector;
-
-import android.util.Log;
 
 public class SerialPortFinder {
 
@@ -41,6 +41,7 @@ public class SerialPortFinder {
 				File dev = new File("/dev");
 				File[] files = dev.listFiles();
 				int i;
+				Log.d(TAG, "new device: " + files.length);
 				for (i=0; i<files.length; i++) {
 					if (files[i].getAbsolutePath().startsWith(mDeviceRoot)) {
 						Log.d(TAG, "Found new device: " + files[i]);

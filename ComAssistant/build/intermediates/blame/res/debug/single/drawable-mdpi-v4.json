@@ -1,5 +1,9 @@
 [
     {
+        "merged": "E:\\Android_WorkStation\\ComAssistant\\ComAssistant\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "E:\\Android_WorkStation\\ComAssistant\\ComAssistant\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
         "merged": "E:\\kaifaworkspace\\ComAssistant\\ComAssistant\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
         "source": "E:\\kaifaworkspace\\ComAssistant\\ComAssistant\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
     }
